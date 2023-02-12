@@ -1,9 +1,8 @@
 .h1{
     text-align: center;
-    text size: 15px;
 }
 
-.caixa1{
+.caixa{
     background-color:aqua;
     width: 200px;
     height: 200px;
@@ -11,7 +10,7 @@
     margin: 5px;
 }
 
-.caixa2{
+.caixa 2{
     background-color:azure;
     width:200px;
     height: 200px;
@@ -22,3 +21,49 @@
     width: 200px;
     height:200px;
 }
+
+   
+
+ul{
+list-style: none;
+margin: 10px;
+padding: 10px;
+line-height: 50px;
+
+
+}
+li{
+background: #ee7ee5;
+
+
+}
+
+
+a :hover{
+
+
+   background: #ee7ee5;
+}
+
+
+ul li:first-child {
+background: #e789e0e5;
+}
+
+
+ul li:first-child a{
+ background:#e789e0e5;
+    
+}
+
+
+ul li :first-child a:hover{
+   color: beige;
+}
+
+
+ul li :first-child  a:active{
+   color: blanchedalmo
+
+}
+ 
