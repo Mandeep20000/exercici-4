@@ -1,34 +1,38 @@
-
+body¨{
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
 list-style: none;
-    margin: 0;
-    padding: 0;
-    line-height: 20px;
+margin: 0;
+padding: 0;
+line-height: 15px;
+
 }
-/*La etiqueta <li> nos ayudará a darle el color de fondo a su hijo, la etiqueta <a>*/
-li {
-    /*outline: 1px solid black;*/
-    background: #e7e7e5;
+li{
+background: #e7e7e5;
+
 }
-/*Utilizaremos la pseudoclase "hover" para cambiar el color del backgraund cuando pasa el cursor*/
-a:hover {
+
+a :hover{
+
     background: #e0e0d1;
 }
-/*Utilizaremos la pseudoclase "active" para cambiar el color del backgraund cuando hacemos click*/
-a:active {
-    background: #333;
-    color: #fff;
+
+ul li:first-child {
+background: #e7e7e5;
 }
-/*Usaremos la etiqueta <a> para cambiar la decoracion del texto y el tipo de elemento
- que es, tambien le daremos color al texto y el relleno que necesite*/
-a {
-    /*outline: 1px solid black;*/
-    display: block;
-    text-decoration: none;
-    color: black; 
-    padding: 10px;
-    padding-left: 20px;     
 
+ul li:first-child a{
+color:aqua
+}
 
+ul li :first-child a:hover{
+    color: beige;
+}
+
+ul li :first-child  a:active{
+    color: blanchedalmond;
+}
 
 h1.{
 text size: 13px;
