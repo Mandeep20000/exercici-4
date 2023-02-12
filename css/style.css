@@ -1,56 +1,20 @@
-body¨{
-    font-family: 'Times New Roman', Times, serif;
-}
-ul{
-list-style: none;
-margin: 0;
-padding: 0;
-line-height: 15px;
-
-}
-li{
-background: #e7e7e5;
-
+.h1{
+    text-align: center;
+    text size: 15px;
 }
 
-a :hover{
-
-    background: #e0e0d1;
-}
-
-ul li:first-child {
-background: #e7e7e5;
-}
-
-ul li:first-child a{
-color:aqua
-}
-
-ul li :first-child a:hover{
-    color: beige;
-}
-
-ul li :first-child  a:active{
-    color: blanchedalmond;
-}
-
-h1.{
-text size: 10px;
-text-align:center;
-}
-
-.contenidor1{
-    background-color:red;
+.caixa1{
+    background-color:aqua;
     width: 200px;
     height: 200px;
-    font-size: 20px;
     float: left;
+    margin: 5px;
 }
 
-.contenidor2{
-background-color: blue;
-width: 200px;
-height: 200px;
-font-size: 20px;
-float: left;
+.caixa2{
+    background-color:azure;
+    width:200px;
+    height: 200px;
+    float: left;
+    margin:5px;
 }
