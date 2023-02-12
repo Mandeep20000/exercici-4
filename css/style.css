@@ -35,7 +35,8 @@ ul li :first-child  a:active{
 }
 
 h1.{
-text size: 13px;
+text size: 10px;
+text-align:center;
 }
 
 .caixa1{
