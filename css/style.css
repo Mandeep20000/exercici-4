@@ -1,72 +1,51 @@
-.h1{
-    text-align: center;
+body{
+    background-color: blueviolet;
+    background-size: cover;
 }
 
-.caixa{
-    background-color:aqua;
-    width: 250px;
-    height: 500px;
-    float: left;
-    margin: 5px;
+
+nav{
+    max-width: 900 px;
+    margin:auto;
+    background-color:#333 ;
+    font-size: 20 px;
+    margin-top: 50 px;
 }
 
-.caixa 2{
-    background-color:azure;
-    width:500px;
-    height: 500px;
-    float: right;
-    margin:50px;
+.menu1{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
-.contenidor{
-    width: 500px;
-    height:500px;
+.menu1 > li > a{
+    display: block;
+    padding: 20px 25px;
+    color: blue;
 }
 
-   
 
 
-   
+.menu1 > li:hover{
+    background-color: beige;
+}
 
-ul{
+.menu1{
+position: absolute;
+display: none;
 list-style: none;
-margin: 10px;
-padding: 10px;
-line-height: inherit;
-
-
+width: 300 px;
+background-color: blanchedalmond;
 }
-li{
-background: #ee7ee5;
-
-
+.menu1 li: hover .menu1{
+    display: block;
 }
 
-
-a :hover{
-
-
-   background: #ee7ee5;
+.menu1 li:hover{
+    background-color: aquamarine;
 }
 
-
-ul li:first-child {
-background: #e789e0e5;
+.menu1 li a{
+    display: block;
+    color: antiquewhite;
+    padding: 15px 15px 15px 25px;
 }
-
-
-ul li:first-child a{
- background:#e789e0e5;
-    
-}
-
-
-ul li :first-child a:hover{
-   color: beige;
-}
-
-
-ul li :first-child  a:active{
-   color: blanchedalmo
-
-}
- 
