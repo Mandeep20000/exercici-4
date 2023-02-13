@@ -1,5 +1,5 @@
 body {
-    background-color:cornsilk;
+    background-color:#D2691E;
    }
    #header {
      margin: 5px;;
@@ -9,7 +9,7 @@ body {
    }
  .menus{
    background-color:#333 ;
-   width: 200;
+   width: 150px;
    height: 200px;
  }
  .MENU li a{
@@ -29,19 +29,35 @@ body {
   
  }
  .MENU>li>a:hover{
-   color: #0000FF
+   color: #0000FF;
    margin-left: 20px;
+ 
  }
-   .caixa1{
-    width: 150px;
-    height: 1500px;
-    background-color: purple;
-   }
-  
-  .caixa2 {
-    width:  150px;
-    height:  150px;
-    background-color: purple;
-  }
-  
+ .MENU>li{
+ 
+   width: 200px;
+   height: 20px;
+   overflow: hidden;
+   transition: 1s;
+ }
+ .MENU>li:hover{
+   height: 50px;
+ }
+ 
+ h1{
+     text-align: center;
+ }
+ 
+ .caixa{
+     background-color:aqua;
+     width: 250px;
+     height: 500px;
+     float: left;
+     margin: 5px;
+ }
+ 
+ .caixa 2{
+     background-color:azure;
+     width:500px;
+ }
   
