@@ -50,14 +50,17 @@ body {
  
  .caixa{
      background-color:aqua;
-     width: 250px;
-     height: 500px;
+     width: 300px;
+     height: 250px;
      float: left;
      margin: 5px;
  }
  
- .caixa 2{
+ .caixa2{
      background-color:azure;
-     width:500px;
+     width:300px;
+     height:250px;
+     float :left;
+     margin:5px;
  }
   
