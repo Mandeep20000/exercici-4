@@ -17,17 +17,12 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-.menu1 > li > a{
-    display: block;
-    padding: 20px 25px;
-    color: white;
-    text-decoration: none;
-}
 
 
 
-.menu1 > li:hover{
-    background-color: red;
+.menu1 > li>a:hover{
+   color:green;
+   margin-left:15px;
 }
 
 .menu1{
