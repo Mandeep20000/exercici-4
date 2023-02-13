@@ -5,22 +5,25 @@
 .caixa{
     background-color:aqua;
     width: 250px;
-    height: 200px;
+    height: 500px;
     float: left;
     margin: 5px;
 }
 
 .caixa 2{
     background-color:azure;
-    width: 250px;
-    height: 200px;
-    float: left;
-    margin:5px;
+    width:500px;
+    height: 500px;
+    float: right;
+    margin:50px;
 }
 .contenidor{
-    width: 200px;
-    height:200px;
+    width: 500px;
+    height:500px;
 }
+
+   
+
 
    
 
