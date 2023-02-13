@@ -31,5 +31,17 @@ body {
  .MENU>li>a:hover{
    color: #0000FF;
    margin-left: 20px;
- 
-
+ }
+   .caixa1{
+    width: 150px;
+    height: 1500px;
+    background-color: purple;
+   }
+  
+  .caixa2 {
+    width:  150px;
+    height:  150px;
+    background-color: purple;
+  }
+  
+  
